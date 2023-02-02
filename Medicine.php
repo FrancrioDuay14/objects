@@ -18,16 +18,16 @@
             $this->expirationDate = $expirationDate;
         }
 
+        function getType(){
+            return $this->type;
+         }
+
         function getDose(){
-           return $this->Dose;
+           return $this->dose;
         }
 
         function getExpirationDate(){
             return $this->expirationDate;
-        }
-
-        function getPrice(){
-           return $this->price;
         }
 
         function computeSRP(){
