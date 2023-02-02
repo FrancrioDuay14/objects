@@ -23,7 +23,7 @@
         $medicine[0]->setDose(500);
         $medicine[0]->setType("Branded");
         $medicine[0]->setExpirationDate("12/31/2023");
-
+    
         $medicine[1] = new Medicine;
         $medicine[1]->setName("Paracetamol");
         $medicine[1]->setDescription("Paracetamol, also known as acetaminophen, is a medication used to treat fever and mild to moderate pain.");
