@@ -12,7 +12,6 @@
     <title>Home</title>
 </head>
 <body>
-    hello world
     <?php
         $medicine = [];    
 
